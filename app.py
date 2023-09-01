@@ -2,7 +2,7 @@
 import deepl
 import streamlit as st
 
-LANGUAGES = {"英語": "EN", "日本語": "JA"}
+LANGUAGES = {"英語": "EN", "日本語": "JA", "中国語": "ZH"}
 
 def deepl_translate(text, src_lang="JA", target_lang="EN"):
     translate_text = deepl.translate(
